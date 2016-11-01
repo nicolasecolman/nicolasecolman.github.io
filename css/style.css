@@ -14,18 +14,10 @@ body{
 }
 
 header{
-  /*border: 10px solid rgba(0,0,0,.3);
-  border-radius: 10px;*/
   display: inline-block;
   padding: 20px; 
   width: 450px;
 }
-
-/*
-.avatar, .personal{
-  float: left
-}
-*/
 
 .avatar img{
   border: 5px solid;
@@ -36,46 +28,12 @@ header{
   color: #ffffff;
   font-size: 1.1rem;
 }
-/*nav ul{
-  background: rgba(0,0,0,.5);
-  font-size: 0;
-  margin-bottom: 20px;
-  padding: 0;
-}
-
-nav ul li{
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  display: inline-block;
-  font-size: 16px;
-  height: 50px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: top;
-  width: 25%;
-}
-
-nav ul li:hover{
-  background: rgba(0,0,0,.3);
-}
-
-nav ul li a{
-  color: white;
-  text-transform: uppercase;
-}
-
-nav ul li img{
-  height: auto;
-  width: 80%
-}*/
 
 #webs{
   text-align: center;
 }
 
 #webs article{
-  /*border: 1px solid white;*/
   border-radius: 5px;
   color: black;
   display: inline-block;
