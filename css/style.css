@@ -1,7 +1,7 @@
 
 body{
   background: url(../img/cover.jpg) no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   font-family: arial;
   font-size: 16px;
   text-shadow: 1px 1px 0 rgba(0,0,0,.3); 
