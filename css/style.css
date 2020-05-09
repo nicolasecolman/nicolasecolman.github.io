@@ -1,6 +1,6 @@
 
 body{
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url(../img/cover.jpg) no-repeat;
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(../img/cover.jpg) no-repeat;
   background-size: cover;
   font-family: arial;
   font-size: 16px;
@@ -55,10 +55,8 @@ header{
   opacity: 1;
 }
 
+/* Smartphones */
 @media screen and (max-width:480px){
-  nav ul li{
-    width: 50%;
-  }
   
   header{
     display: block;
@@ -76,3 +74,10 @@ header{
   }
   
 } 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body {
+    height: 100vh; /* The body element is always 100% of the viewport's height. */
+  }
+}
