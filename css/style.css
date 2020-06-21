@@ -1,5 +1,5 @@
 
-body{
+body {
   background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(../img/cover.jpg) no-repeat;
   background-size: cover;
   font-family: arial;
@@ -7,33 +7,42 @@ body{
   text-shadow: 1px 1px 0 rgba(0,0,0,.3); 
 }
 
-#contenedor{
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+#contenedor {
   margin: 0 auto;
   text-align: center;
   width: 100%;
 }
 
-header{
+header {
   display: inline-block;
   padding: 20px; 
   width: 450px;
 }
 
-.avatar img{
+.avatar img {
   border: 5px solid;
   border-radius: 50%;
 }
 
-.personal{
+.personal {
   color: #ffffff;
   font-size: 1.1rem;
 }
 
-#webs{
+#webs {
   text-align: center;
 }
 
-#webs article{
+#webs article {
   border-radius: 5px;
   color: black;
   display: inline-block;
@@ -42,13 +51,13 @@ header{
   width: 150px;
 }
 
-#webs article img{
+#webs article img {
   -webkit-transition: .3s;
   -moz-transition: .3s;
   opacity: 0.8;
 }
 
-#webs article:hover img{
+#webs article:hover img {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -56,19 +65,19 @@ header{
 }
 
 /* Smartphones */
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
   
-  header{
+  header {
     display: block;
     text-align: center;
     width: auto;   
   }
   
-  .avatar, .personal{
+  .avatar, .personal {
     float: none;
   }
   
-  .avatar{
+  .avatar {
     display: inline-block;
     margin: 10px 0;
   }
