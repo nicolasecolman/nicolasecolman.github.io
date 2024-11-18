@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(../img/background.webp) no-repeat;
+  background: linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(../img/background.webp) no-repeat;
   background-size: cover;
   font-family: arial;
   font-size: 16px;
@@ -10,6 +10,7 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
+  font-weight: normal;
 }
 
 h2 {
@@ -83,8 +84,7 @@ header {
   }
   
 } 
-
-/* iPads (portrait and landscape) ----------- */
+/* Tablets */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   body {
     height: 100vh; /* The body element is always 100% of the viewport's height. */
