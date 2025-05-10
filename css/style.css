@@ -1,7 +1,7 @@
 
 body {
   background: linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(../img/background.webp) no-repeat;
-  background-size: cover;
+  background-size: auto;
   font-family: arial;
   font-size: 16px;
   height: auto;
