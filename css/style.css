@@ -4,6 +4,7 @@ body {
   background-size: cover;
   font-family: arial;
   font-size: 16px;
+  height: auto;
   text-shadow: 1px 1px 0 rgba(0,0,0,.3); 
 }
 
@@ -17,7 +18,7 @@ h2 {
   font-size: 1.3em;
 }
 
-#contenedor {
+#container {
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -37,10 +38,6 @@ header {
 .personal {
   color: #ffffff;
   font-size: 1.1rem;
-}
-
-#webs {
-  text-align: center;
 }
 
 #webs article {
@@ -72,10 +69,6 @@ header {
     display: block;
     text-align: center;
     width: auto;   
-  }
-  
-  .avatar, .personal {
-    float: none;
   }
   
   .avatar {
