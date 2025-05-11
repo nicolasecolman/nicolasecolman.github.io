@@ -83,3 +83,23 @@ header {
     height: 100vh; /* The body element is always 100% of the viewport's height. */
   }
 }
+
+/* Mobile style for webs */
+@media (max-width: 768px) {
+  #webs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #webs article {
+    flex: 1 1 calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  #webs img {
+    width: 100%;
+    height: auto;
+  }
+}
