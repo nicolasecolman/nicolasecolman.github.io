@@ -49,6 +49,7 @@ header {
 }
 
 #webs article img {
+  border-radius: 20%;
   transition: .3s;
   opacity: 0.8;
 }
@@ -58,12 +59,8 @@ header {
   opacity: 1;
 }
 
-/* Smartphones */
+/* Small screens */
 @media screen and (max-width:480px) {
-  body {
-    background-size: unset;
-    max-height: 800px;
-  }
   
   header {
     display: block;
@@ -77,15 +74,13 @@ header {
   }
   
 } 
-/* Tablets */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  body {
-    height: 100vh; /* The body element is always 100% of the viewport's height. */
-  }
-}
 
-/* Mobile style for webs */
+/* Intermediate screens */
 @media (max-width: 768px) {
+  body {
+    background-size: unset;
+    max-height: 800px;
+  }
   #webs {
     display: flex;
     flex-wrap: wrap;
@@ -93,7 +88,7 @@ header {
   }
 
   #webs article {
-    flex: 1 1 calc(33.33% - 20px);
+    flex: 1 1 calc(25% - 20px);
     margin: 10px;
     box-sizing: border-box;
   }
@@ -101,5 +96,12 @@ header {
   #webs img {
     width: 100%;
     height: auto;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body {
+    height: 100vh; /* The body element is always 100% of the viewport's height. */
   }
 }
